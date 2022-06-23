@@ -4,6 +4,8 @@ const useTitle = (title) => {
   useEffect(() => {
     if (title && title !== 'Home') {
       document.title = `D&D - ${title}`;
+    } else {
+      document.title = 'Drink & Drunk';
     }
   }, [title]);
 };
