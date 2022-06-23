@@ -8,7 +8,10 @@ const Footer = () => {
       <footer>
         <strong>Footer</strong>{' '}
         <a href="https://github.com/lucapu88" target="_blank">
-          <small>Luca Caputo</small>
+          <small>Luca Caputo </small>
+        </a>
+        <a href="https://github.com/lucapu88/React-Cocktails" target="_blank">
+          <strong> Link alla repo del progetto</strong>
         </a>
       </footer>
     </Wrapper>

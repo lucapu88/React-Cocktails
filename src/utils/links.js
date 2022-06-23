@@ -5,6 +5,7 @@ import {
   FaFacebookSquare,
   FaTwitterSquare,
   FaYoutubeSquare,
+  FaGithubSquare,
 } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import { useGlobalContext } from '../context';
@@ -65,6 +66,10 @@ const socialLink = [
   {
     url: 'https://www.youtube.com/channel/UCVPzu5zrXrt8cgSEm73zVzA',
     icon: <FaYoutubeSquare className="nav-icon" />,
+  },
+  {
+    url: 'https://github.com/lucapu88',
+    icon: <FaGithubSquare className="nav-icon" />,
   },
 ];
 

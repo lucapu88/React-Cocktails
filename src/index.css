@@ -323,7 +323,7 @@ NAV STYLE MEDIA QUERY
     display: -ms-grid;
     display: -webkit-grid;
     align-items: center;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 1rem;
     font-size: 1.2rem;
   }
