@@ -1,43 +1,47 @@
 import { IoSchool, IoPeopleCircleSharp } from 'react-icons/io5';
 import { ImDatabase } from 'react-icons/im';
+import titina from '../assets/image/signora.webp';
+import gionni from '../assets/image/signore.webp';
+import mario from '../assets/image/mimmo.jpg';
+import matteo from '../assets/image/matteo.jpg';
 
 export const valueCards = [
   {
     title: 'Educare',
     icon: <IoSchool className="icon card-icon" />,
-    text: ' Pickled hashtag portland pork belly cred selvage viral retro prism lomo narwhal cray selfies vegan lyft.',
+    text: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.',
   },
   {
     title: 'Insegnare',
     icon: <IoPeopleCircleSharp className="icon card-icon" />,
-    text: "iPhone banh mi you probably haven't heard of them fanny pack marfa four loko freegan. XOXO salvia twee whatever post-ironic blog",
+    text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   },
   {
     title: 'Centralizzare',
     icon: <ImDatabase className="icon card-icon" />,
-    text: 'Tilde post-ironic celiac franzen sustainable, vinyl polaroid direct trade tattooed vaporware kogi health goth cray echo park organic.',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.',
   },
 ];
 
 export const teamCards = [
   {
     title: 'Mario Nero',
-    img: 'https://sportnews.snai.it/wp-content/uploads/2020/05/GettyImages-625824450.jpg',
+    img: `${matteo}`,
     subtitle: 'CEO & Founder',
   },
   {
     title: 'Tina Mennona',
-    img: 'https://i1.wp.com/alabanza.ru/wp-content/uploads/2018/04/Instagram-i-Vikipediya-Tatyany-Dogilevoj-foto.jpg',
+    img: `${titina}`,
     subtitle: 'CTO',
   },
   {
     title: 'Giorgio Bevilalcol',
-    img: 'https://www.ecodelcinema.com/wp-content/uploads/2013/10/Charlie-Sheen.png',
+    img: `${gionni}`,
     subtitle: 'Stakeholder & Testimonial',
   },
   {
     title: 'Mimmo Merolo',
-    img: 'https://www.corriere.it/methode_image/2021/01/15/Moda/Foto%20Moda/8%20shia%20labeouf.jpg',
+    img: `${mario}`,
     subtitle: 'Creative Director',
   },
 ];

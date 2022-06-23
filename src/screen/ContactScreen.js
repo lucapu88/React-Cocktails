@@ -13,12 +13,13 @@ const ContactScreen = () => {
           <div className="contact-hero-text">
             <div className="contact-hero-title">
               <h2 className="contact-title">
-                Vorresti aggiungere un cocktail? no? e allora vaffanculo!
+                Vorresti aggiungere un cocktail? no? e allora vai a comprarti il
+                tavernello in cartone!
               </h2>
               <h4 className="contact-subtitle">
                 Scheeeeeerzo! Il nostro team è sempre disponibile per valutare
                 possibili nuove ricette ed ad aggiungerle al nostro database. Tu
-                inviaci la tua ricetta, e noi ce ne sbatteremo il ca---!!!
+                inviaci la tua ricetta, e noi ce ne sbatteremo altamente!!!
               </h4>
             </div>
           </div>

@@ -24,16 +24,15 @@ const HomeScreen = () => {
         <div className="home-hero">
           <div className="home-hero-text">
             <div className="home-hero-title">
-              <h2 className="brand-color"> WIKI DRINK</h2>
+              <h2 className="brand-color"> DRINKPEDIA</h2>
               <h4>Tutti i cocktail del mondo a portata di click</h4>
             </div>
             <p>
-              Wiki Drink è un database internazionale che mette a tua
+              Drinkpedia è un database internazionale che mette a tua
               disposizione, in maniera{' '}
               <span className="brand-color">Gratuita</span>, le ricette dei più
               importanti e diffusi cocktail al mondo.
             </p>
-            <small>PS: fatti una bella birra alla spina che è meglio!</small>
             <Link to="/about" className="btn btn-primary">
               Scopri di più
             </Link>

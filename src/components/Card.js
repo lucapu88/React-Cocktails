@@ -53,6 +53,7 @@ const Wrapper = styled.article`
     .card-subtitle {
       font-size: 1.1rem !important;
       color: var(--dark-gray);
+      margin-bottom: 20px;
     }
     .card-icon {
       font-size: 2rem !important;
@@ -62,7 +63,7 @@ const Wrapper = styled.article`
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      filter: brightness(80%);
+      filter: brightness(90%);
     }
     .card-text {
       margin-top: 0.3rem;

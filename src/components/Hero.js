@@ -1,5 +1,5 @@
 import React from 'react';
-import backImage from '../assets/image/home-hero.jpg';
+import backImage from '../assets/image/home-hero.webp';
 
 const Hero = ({ children, img, disableOverlay }) => {
   const defaultImage = img ? img : backImage;
