@@ -504,7 +504,7 @@ HERO STYLE
   display: grid;
   place-items: center;
   text-align: center;
-  gap: 2rem;
+  gap: 1rem;
   color: var(--text-color);
 }
 
@@ -562,8 +562,16 @@ HERO STYLE
 
   .home-hero-img {
     grid-column: 8/-1;
+    border-radius: 50%;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .home-hero-text > a {
+    display: none;
+  }
+}
+
 /*=== ABOUT HERO ===*/
 
 .about-hero {
